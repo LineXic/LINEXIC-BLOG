@@ -63,10 +63,14 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-new Valine({
+<div id="vcomments"></div>
+    <script>
+        new Valine({
             el: '#vcomments',
             appId: 'Your appId',
             appKey: 'Your appKey'
+        })
+    </script>
 
 # Analytics settings
 # Baidu Analytics 
