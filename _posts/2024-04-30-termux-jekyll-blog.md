@@ -28,25 +28,25 @@ Windows 并未正式支持 Jekyll。 有关详细信息，请参阅 Jekyll 文�
 
 ## 准备
 - [Ruby](https://www.ruby-lang.org/zh_cn/)
-```
+```bash
 pkg install ruby
 ```
 - [RubyGems](https://rubygems.org/pages/download)
-```
+```bash
 gem update --system
 ```
 - Linux
 - [NodeJs](https://nodejs.org/)
-```
+```bash
 pkg install node
 ```
 - [Python 2.7](https://www.python.org/downloads/)
-```
+```bash
 pkg install python
 ```
 
 # 快速生成
-```
+```bash
 ~ $ gem install jekyll
 ~ $ jekyll new myblog
 ~ $ cd myblog
@@ -54,7 +54,7 @@ pkg install python
 # => Now browse to http://localhost:4000
 ```
 生成后会得到这样的大概的目录结构
-```
+```bash
 .     基本信息
 ├── _config.yml
 ├── _drafts
@@ -79,7 +79,7 @@ pkg install python
 > 更多查看[jekyll文档-目录结构](http://jekyllcn.com/docs/structure/)
 
 ## 安装开发板
-```
+```bash
 git clone git://github.com/jekyll/jekyll.git
 $ cd jekyll
 $ script/bootstrap
@@ -99,7 +99,7 @@ jekyll主题在github也有很多开源
 本主题内置[Gitalk](https://github.com/gitalk/gitalk)
 可以在[这里](https://github.com/settings/applications/new)申请GitHub Application
 
-```
+```bash
 gitalk:
    enable: true
    owner: 拥有者
