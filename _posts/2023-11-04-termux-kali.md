@@ -27,7 +27,7 @@ Kali Linux 是专门用于渗透测试的Linux操作系统，它由BackTrack发�
 # 正文
 
 输入一下命令：
-```
+```bash
 apt update
 ```
 这是一个主要在新系统安装之后或安装新软件包之前调用的命令，更新
@@ -36,7 +36,7 @@ apt update
 
 将软件包升级到最新版本：
 
-```
+```bash
 apt upgrade
 ```
 
@@ -51,20 +51,20 @@ apt upgrade
 ![](https://img.linexic.top/file/0353798d81cbb65577657.png)
 获得wget包信息。
 
-```
+```bash
 apt update
 ```
 
 要拥有共享存储，您需要授予Termux存储访问权限。不允许访问外部连接的存储设备。
 
-```
+```bash
 termux-setup-storage
 ```
 
 ![](https://img.linexic.top/file/ac06eeb33eb0cb1765721.png)
 安装wget，当系统询问您是否要继续时，请按Y并回车。
 
-```
+```bash
 apt install wget
 ```
 
@@ -76,7 +76,7 @@ apt install wget
 
 下载NetHunter安装文件。确保输入正确的地址。
 
-```
+```bash
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 ```
 
@@ -84,14 +84,14 @@ wget -O install-nethunter-termux https://offs.ec/2MceZWr
 
 更改权限以便可以执行文件：
 
-```
+```bash
 chmod +x install-nethunter-termux
 ```
 
 ![](https://img.linexic.top/file/3cb3772ea606cb8178dbf.png)
 
 键入以下命令以执行下载的安装文件：
-```
+```bash
 ./install-nethunter-termux
 ```
 
