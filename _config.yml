@@ -1,6 +1,6 @@
 # Site settings
-title: LineXic笔记书屋
-SEOTitle: LineXic笔记书屋
+title: LineXic书屋
+SEOTitle: LineXic书屋
 header-img: "img/tag-bg.jpg"
 email: linexic@yeah.net
 description: "LineXic博客,书屋,前端分享,笔记本,学习进步"
@@ -67,8 +67,8 @@ gitalk:
    enable: true
    owner: LineXic
    repo: LineXic.github.io
-   clientID: 76c70f9453ab6366ee5e
-   clientSecret: 83df20be6a79e1effce62210658dfd94b0fdea19
+   clientID: 4247b9ff0479dc132182
+   clientSecret: 696f5dfb6ab860da56b5e59ba61a36db1817da81
    admin: LineXic
 # Analytics settings
 # Baidu Analytics 
