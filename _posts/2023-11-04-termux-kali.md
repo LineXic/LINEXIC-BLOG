@@ -17,6 +17,11 @@ tags:
 [termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apkhttp://)（GitHub下载）<br/>
 一双手，一部手机，一个键盘（不是
 
+打开Termux，先切换pkg源
+```bash
+sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade
+```
+
 # 什么是kali
 
 Kali Linux 是专门用于渗透测试的Linux操作系统，它由BackTrack发展而来。在整合了IWHAX、WHOPPIX和Auditor这三种渗透测试专用Live Linux后，BackTrack正式改名为Kali LInux。
