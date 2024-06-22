@@ -63,15 +63,13 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-<div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'Your appId',
-            appKey: 'Your appKey'
-        })
-    </script>
-
+gitalk:
+   enable: true
+   owner: LineXic
+   repo: LineXic.github.io
+   clientID: 76c70f9453ab6366ee5e
+   clientSecret: 83df20be6a79e1effce62210658dfd94b0fdea19
+   admin: LineXic
 # Analytics settings
 # Baidu Analytics 
 # ba_track_id:'
