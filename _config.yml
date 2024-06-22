@@ -63,13 +63,10 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-gitalk:
-   enable: true
-   owner: LineXic
-   repo: LineXic.github.io
-   clientID: 76c70f9453ab6366ee5e
-   clientSecret: 83df20be6a79e1effce62210658dfd94b0fdea19
-   admin: LineXic
+new Valine({
+            el: '#vcomments',
+            appId: 'Your appId',
+            appKey: 'Your appKey'
 
 # Analytics settings
 # Baidu Analytics 
