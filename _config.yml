@@ -68,7 +68,7 @@ gitalk:
    owner: LineXic
    repo: LineXic.github.io
    clientID: 76c70f9453ab6366ee5e
-   clientSecret: cf2436fb836029e743b49151934d2c40d0fa71cc
+   clientSecret: 83df20be6a79e1effce62210658dfd94b0fdea19
    admin: LineXic
 
 # Analytics settings
