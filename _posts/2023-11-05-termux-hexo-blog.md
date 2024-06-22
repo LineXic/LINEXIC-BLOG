@@ -25,43 +25,43 @@ tags:
 ## 1.hexo
 
 Hexo 是用 Nodejs 编写的，所以安装的话先安装node.js,termux 也是封装了,一行命令安装:
-```dash
+```bash
 pkg install nodejs
 ```
 
 安装后使用npm命令来安装hexo：
-```
+```bash
 npm install hexo-cli -g
 ```
 
 安装完成后，查看一下版本信息,检验是否安装成功：
-```
+```bash
 hexo -v
 ```
 [![hexo -v](https://img.linexic.top/file/57d2e82e58f906c1e394b.png)](https://img.linexic.top/file/57d2e82e58f906c1e394b.png)
 
 创建一个hexo目录
-```
+```bash
 mkdir hexo
 ```
 
 进入目录
-```
+```bash
 cd hexo
 ```
 
 初始化hexo环境
-```
+```bash
 hexo init
 ```
 
 初始好后生成静态文件:
-```
+```bash
 hexo g
 ```
 
 启动hexo
-```
+```bash
 hexo s
 ```
 
@@ -77,19 +77,19 @@ hexo s
 
 然后我们使用nohup 后台启动,启动后我们可以按到PID:
 
-```
+```bash
 nohup hexo s &
 ```
 
 [![](https://img.linexic.top/file/b63c68542599d9aea1184.png)](https://img.linexic.top/file/b63c68542599d9aea1184.png)
 
 关闭的方式也很简单,使用kill命令:
-```
+```bash
 kill -9 PID
 ```
 
 新建完成后，指定文件夹的目录如下：
-```
+```bash
 .
 ├── _config.yml
 ├── package.json
@@ -105,60 +105,60 @@ kill -9 PID
 
 ## 2.安装cpolar
 创建一个sources.list.d的文件夹:
-```
+```bash
 mkdir -p $PREFIX/etc/apt/sources.list.d
 ```
 
 添加cpolar下载源文件
 
-```
+```bash
 echo "deb [trusted=yes] http://termux.cpolar.com termux extras" >> $PREFIX/etc/apt/sources.list.d/cpolar.list
 ```
 
 更新仓库
-```
+```bash
 pkg update
 ```
 
 安装cpolar
-```
+```bash
 pkg install cpolar
 ```
 
 安装termux服务，注意: 安装完成后记得关闭重启一下termux 才生效!!
-```
+```bash
 pkg install termux-services
 ```
 
 重启完termux后，然后启动cpolar
-```
+```bash
 sv up cpolar
 ```
 
 设置开机自启
-```
+```bash
 sv-enable cpolar
 ```
 
 这个是停止cpolar 服务
-```
+```bash
 sv down cpolar
 ```
 
 cpolar.yml主配置文件路径位置
 
-```
+```bash
 sv-enable cpolar
 ```
 
 这个是停止cpolar 服务
-```
+```bash
 sv down cpolar
 ```
 
 cpolar.yml主配置文件路径位置
 
-```
+```bash
 $PREFIX/etc/cpolar/cpolar.yml
 ```
 
@@ -217,7 +217,7 @@ Sub Domain：填写我们刚刚所保留的二级子域名（本例为hexoblog�
 >[cpolar.com/blog/...website](https://www.cpolar.com/blog/android-termuxhexo-build-your-own-blog-website "cpolar.com/blog/...website")
 
 #创建文章
-```
+```bash
 hexo new [layout] <title>
 ```
 
@@ -227,10 +227,10 @@ hexo new [layout] <title>
 - [什么是vim](https://www.runoob.com/linux/linux-vim.html "什么是vim")
 
 安装vim
-```
+```bash
 pkg install vim
 ```
 进入编辑帖子
-```
+```bash
 vim 文章名字.md
 ```
