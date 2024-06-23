@@ -14,7 +14,7 @@ header-img: "img/xiaowangzi1.jpg"
   <!-- ... -->
 </head>
 <body>
-<div><p>这里是留言页，一些用gitalk评论不了的用户可以在这里发表评论，也可以在这里提交友链</p></div>
+<div id=“box“><p>这里是留言页，一些用gitalk评论不了的用户可以在这里发表评论，也可以在这里提交友链</p></div>
   <!-- ... -->
   <div id="waline"></div>
   <script type="module">
@@ -25,4 +25,18 @@ header-img: "img/xiaowangzi1.jpg"
       serverURL: 'https://waline-xic-pinglun.linexic.top/',
     });
   </script>
+
+  <style>
+#box {
+  font-family: Arial;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 00010px white;
+}
+    
+  </style>
 </body>
