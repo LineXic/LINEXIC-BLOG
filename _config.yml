@@ -68,7 +68,7 @@ gitalk:
    owner: LineXic
    repo: LineXic.github.io
    clientID: 4247b9ff0479dc132182
-   clientSecret: 696f5dfb6ab860da56b5e59ba61a36db1817da81
+   clientSecret: cf0d2e8bcb14d85635dfea2fe13d8c8e24e522ca
    admin: LineXic
 # Analytics settings
 # Baidu Analytics 
