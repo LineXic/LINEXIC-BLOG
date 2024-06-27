@@ -37,5 +37,15 @@ tags:
 你在网站脚页也基本可以找到我的联系方式需要的联系我，可以在[爱发电](http://afdian.net/a/LineXic)赞助我
 - 邮箱:linexic@yeah.net
 - QQ:2793151375
-- 下方评论留言或[留言板](https://linexic.top/liuyan/)
+- 下方评论留言
+
+# 此外
+如果没有人找接单那么这个就是一个综合申请帖，可以在这里提交友链，格式如下
+
+- title:LineXic书屋
+- url:https://linexic.top/
+- logo:https://linexic.top/logo.png
+- description: "「念念不忘，必有回响」"
+
+按照这个格式添加我之后审核添加贵站
 
