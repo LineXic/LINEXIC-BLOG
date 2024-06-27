@@ -22,6 +22,16 @@ layout: default
     href="https://unpkg.com/@waline/client@v3/dist/waline.css"
   />
 
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://your-domain.vercel.app',
+    });
+  </script>
+
 <!-- 打赏-->
 <link href="/css/reward.css?v=6.2.0" rel="stylesheet" type="text/css" />
 
