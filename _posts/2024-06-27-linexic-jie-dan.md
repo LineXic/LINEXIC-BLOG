@@ -12,7 +12,6 @@ tags:
 ---
 
 # 汉化接单
-
 我在[Minecraft-苦力怕论坛](https://klpbbs.com/?fromuid=1114580)发过几个Minecraft汉化Addon，这里是我的两个账号的作品
 
 - [LineXic](https://klpbbs.com/?1114580)
@@ -22,7 +21,6 @@ tags:
 ![接单介绍](https://pic.imgdb.cn/item/64be052c1ddac507cc91f877.jpg)
 
 # 建站
-
 我还会建设网站，从[关于我](https://linexic.top/about)页面可以看出我玩的静态博客不少了，包括现在使用的「Jekyll」」还有玩过的「Docsify」
 等，都可以帮你弄几个，这个***酌情收费***
 
@@ -36,7 +34,7 @@ tags:
 等，我也可以利用服务器为你搭建以[Typecho](https://typecho.org)为首的PHP博客和以Java为首的[Halo](http://halo.run/)博客及论坛***也是酌情收费***
   
 # 联系到我的方式
-你在网站脚页也基本可以找到我的联系方式需要的联系我，可以在<a href="http://afdian.net/a/LineXic">爱发电</a>赞助我
+你在网站脚页也基本可以找到我的联系方式需要的联系我，可以在[爱发电](http://afdian.net/a/LineXic)赞助我
 - 邮箱:linexic@yeah.net
 - QQ:2793151375
 - 下方评论留言或[留言板](https://linexic.top/liuyan/)
