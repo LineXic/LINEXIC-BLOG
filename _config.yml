@@ -63,20 +63,7 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-waline:
-  serverURL: 'https://waline-xic-pinglun.linexic.top/'
-  path: window.location.pathname
-  meta: ['nick', 'mail', 'link']
-  requiredMeta: ['nick']
-  lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
-  dark: 'html[data-user-color-scheme="dark"]'
-  wordLimit: 0
-  pageSize: 10
-  locale: 
-    placeholder: '友善评论，快乐交流'
-    nick: '昵称(必填)'
-    sofa: '快抢沙发'
+
 
 # Analytics settings
 # Baidu Analytics 
