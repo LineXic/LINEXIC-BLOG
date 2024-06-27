@@ -22,16 +22,6 @@ layout: default
     href="https://unpkg.com/@waline/client@v3/dist/waline.css"
   />
 
-  <div id="waline"></div>
-  <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-
-    init({
-      el: '#waline',
-      serverURL: 'https://your-domain.vercel.app',
-    });
-  </script>
-
 <!-- 打赏-->
 <link href="/css/reward.css?v=6.2.0" rel="stylesheet" type="text/css" />
 
@@ -153,7 +143,16 @@ a{
                 </div>
                 
             </div>
-            
+      <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'http://waline-xic-pinglun.linexic.top/',
+    });
+  </script>
+      
 
    <!--  上一篇或者下一篇post按钮 -->
                 <ul class="pager">
