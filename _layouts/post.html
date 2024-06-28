@@ -152,12 +152,19 @@ blockquote p::after {
                 </div>
                 
             </div>
-        <div id="waline"></div>
+<div id="article-info">
+  <!-- ... -->
+  阅读量: <span class="waline-pageview-count" data-path="<Your/Path/Name>" />
+  <!-- ... -->
+</div>
+
+ <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
     init({
       el: '#waline',
+      pageview: true, // 浏览量统计
       serverURL: 'https://waline-xic-pinglun.linexic.top/',
     });
   </script>
