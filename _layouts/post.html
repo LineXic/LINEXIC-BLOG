@@ -95,21 +95,31 @@ layout: default
  -->
                 <hr style="visibility: hidden;">
 		    
-		    <div class="custom-border"><p><li>版权归©<a href="https://linexic.top">LineXic</a>所有</li>
+		    <blockquote><p><li>版权归©<a href="https://linexic.top">LineXic</a>所有</li>
 <li>由<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">BY-NC-SA</a>保障权益</li>
 <li>你可以转载文章但必须标注文章来源</li>
-<li>不能将文章的任何劳动成果占位己有包括但不限于直接或间接盈利</li></p></div>
+<li>不能将文章的任何劳动成果占位己有包括但不限于直接或间接盈利</li></p><blockquote>
 
   <style>
-.custom-border {
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: black black black #Fffafa; /* 顺序是左、上、右、下 */
-    padding: 1px;
-    width: auto;
+
+blockquote {
+  margin: 0;
 }
-a{
-			text-decoration: none;
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
     
 	</style>
 
