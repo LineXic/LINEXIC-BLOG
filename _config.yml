@@ -35,13 +35,15 @@ b2t: true
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
-# `$ gem install jekyll-paginate`
+`gem install jekyll-paginate`
+gems: [jekyll-admin]
 plugins: 
   - jekyll-paginate
   - jekyll-admin
 # plugins: [jekyll-sitemap]
 gems:
   - jekyll-sitemap
+
 paginate_path: "page:num"   #分页页面路径格式
 
 # Markdown settings
