@@ -38,6 +38,7 @@ b2t: true
 # `$ gem install jekyll-paginate`
 plugins: 
   - jekyll-paginate
+  - jekyll-admin
 # plugins: [jekyll-sitemap]
 gems:
   - jekyll-sitemap
