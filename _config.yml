@@ -35,8 +35,8 @@ b2t: true
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
-`gem install jekyll-paginate`
-gems: [jekyll-admin]
+# `gem install jekyll-paginate`
+
 plugins: 
   - jekyll-paginate
   - jekyll-admin
